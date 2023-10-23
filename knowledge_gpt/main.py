@@ -27,7 +27,7 @@ MODEL_LIST = ["gpt-3.5-turbo", "gpt-4"]
 # MODEL_LIST.insert(0, "debug")
 
 st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide")
-st.header("📖KnowledgeGPT")
+st.header("RAG Based Gen AI Services")
 
 # Enable caching for expensive functions
 bootstrap_caching()
