@@ -26,7 +26,7 @@ MODEL_LIST = ["gpt-3.5-turbo", "gpt-4"]
 # Uncomment to enable debug mode
 # MODEL_LIST.insert(0, "debug")
 
-st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide")
+st.set_page_config(page_title="RAG Based Gen AI Chatbot", page_icon="📖", layout="wide")
 st.header("RAG Based Gen AI Services")
 
 # Enable caching for expensive functions
@@ -52,9 +52,9 @@ uploaded_file = st.file_uploader(
 
 model: str = st.selectbox("Model", options=MODEL_LIST)  # type: ignore
 
-with st.expander("Advanced Options"):
-    return_all_chunks = st.checkbox("Show all chunks retrieved from vector search")
-    show_full_doc = st.checkbox("Show parsed contents of the document")
+# with st.expander("Advanced Options"):
+#     return_all_chunks = st.checkbox("Show all chunks retrieved from vector search")
+#     show_full_doc = st.checkbox("Show parsed contents of the document")
 
 
 if not uploaded_file:
