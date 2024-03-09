@@ -28,7 +28,7 @@ MODEL_LIST = ["gpt-3.5-turbo", "gpt-4-turbo-preview", "gpt-4-1106-preview", "gpt
 
 # st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide")
 # st.header("📖KnowledgeGPT")
-st.set_page_config(page_title="RAG Based Gen AI Chatbot", page_icon="📖", layout="wide")
+st.set_page_config(page_title="RAG-Based-LLM-JCS Chatbot", page_icon="📖", layout="wide")
 st.header("RAG Based Gen AI Services")
 
 # Enable caching for expensive functions
